@@ -15,6 +15,7 @@ import { Attractions, Avatar, Hotels, NotFound, Restaurants } from '../assets'
 import MenuContainer from '../components/MenuContainer'
 import ItemCardContainer from '../components/ItemCardContainer'
 import { getPlacesData } from '../api'
+import { GOOGLE_MAPS_APIKEY } from '@env'
 
 const Discover = () => {
   const navigation = useNavigation()
@@ -74,7 +75,7 @@ const Discover = () => {
           }}
           onFail={(error) => console.error(error)}
           query={{
-            key: process.env.MAP_API_KEY,
+            key: GOOGLE_MAPS_APIKEY,
             language: 'en',
           }}
         />
