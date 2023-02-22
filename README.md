@@ -3,17 +3,18 @@ Build and deploy a travel advisory application using react native expo with the 
  You can check the project by installing  "ExpoGo" in your mobile and scan the following link: https://expo.dev/@ermias/travel-advisor?serviceType=claassic&distribution=expo-go
 ## Technologies
 The travel advisory app is built with React Native Expo
-## Setup
-1. Clone the [main repository](https://github.com/ermiyasassegu/travel_advisory_app.git/)
-   ```bash
-   git clone https://github.com/ermiyasassegu/travel_advisory_app.git
+   ## Setup
    ```
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-3.In the same folder, create a `.env` file and add your [GOOGLE_MAPS API_key, RAPID_APIKEY](https://developers.google.com/maps/documentation/javascript/get-api-key/) like below
+1,.In the same folder, create a `.env` file and add your [GOOGLE_MAPS API_KEY, RAPID_API_KEY](https://developers.google.com/maps/documentation/javascript/get-api-key/) like below
    ``` bash
    GOOGLE_MAPS_APIKEY=your-google-map-api-token
    RAPID_APIKEY=your-rapid-api-token
    ```
+
+1. Clone the [main repository](https://github.com/ermiyasassegu/travel_advisory_app.git/)
+   ```bash
+   git clone https://github.com/ermiyasassegu/travel_advisory_app.git
+   ```
+3. Install dependencies
+   ```bash
+   npm install
