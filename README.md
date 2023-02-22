@@ -4,9 +4,9 @@ Build and deploy a travel advisory application using react native expo with the 
 ## Technologies
 The travel advisory app is built with React Native Expo
 ## Setup
-1. Clone the [main repository](https://)
+1. Clone the [main repository](https://github.com/ermiyasassegu/travel_advisory_app.git/)
    ```bash
-   git clone 
+   git clone https://github.com/ermiyasassegu/travel_advisory_app.git
    ```
 2. Install dependencies
    ```bash
