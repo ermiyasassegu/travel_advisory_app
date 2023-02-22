@@ -12,3 +12,7 @@ The travel advisory app is built with React Native Expo
    ```bash
    npm install
    ```
+3.In the same folder, create a `.env` file and add your [GOOGLE_MAPS API_key](https://developers.google.com/maps/documentation/javascript/get-api-key/) like below
+   ``` bash
+   GOOGLE_MAPS_APIKEY=your-google-map-api-token
+   ```
